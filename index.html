@@ -1,19 +1,102 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Traffic Essentials 101</title>
+	<title>Driving 101</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 </head>
 <body>
-	<h3>Question 1</h3>
-	<p>You are Car Red and you want to make a right turn. Cars Yellow and Blue want to make a turn at the junction too. Who takes a turn first?</p>
+	<!--entry button on cover page-->
+	<div id="container">
+		<h1 class="title">Driving 101</h1>
+		<button id="entryButton"><a href="#letsgo">Let's GO!</a></button>
+	</div>
 
-	<img src="Scenario1-img1.png">
+	<!-- Scenario 1 -->
+<section id="letsgo">
+	<h2>Scenario 1</h2>
 
-	<button id="opt1">You</button>
-	<button id="opt2">Car Yellow</button>
-	<button id="opt3">Car Blue</button>
-	<button id="opt4">Cars Blue & Yellow</button>
+	<!-- Question 1  -->
+		<h3>Question 1</h3>
+			<p>You are Car Red and you want to make a right turn. Cars Yellow and Blue want to make a turn at the junction too. Who takes a turn first?</p>
+	<div class="imgwrapper">
+			<img class="imgquiz" src="Scenario1-img1.png">
+	</div>
+	<div class="buttonwrapper">
+		<button class="option" id="opt1-1-1">You</button>
+		<button class="option" id="opt1-1-2">Car Yellow</button>
+		<button class="option" id="opt1-1-3">Car Blue</button>
+		<button class="option" id="opt1-1-4">Cars Blue & Yellow</button>
+	</div>
+</section>
+	<!-- Question 2 -->
+		<h3>Question 2</h3>
+			<p>Now that Cars A & B have made their turns, what is your next move?"</p>
+	<div class="imgwrapper">
+		<img class="imgquiz" src="Scenario1-img1.png">
+	</div>
+	<div class="buttonwrapper">
+		<button class="option" id="opt1-2-1">Switch on the right signal, then turn make a right turn</button>
+		<button class="option" id="opt1-2-2">Switch on the left signal, then make a right turn</button>
+	</div>
+
+	<!-- Scenario 2 -->
+	<h2>Scenario 2</h2>
+
+	<!-- Question 1 -->
+		<h3>Question 1</h3>
+			<p>You are approaching the Police Officer from his front. You want to turn left. What do you do when you see the signal below?</p>
+	
+	<div class="imgwrapper">
+		<img class="imgquiz" id="policeofficer" src="policeofficer.png">
+	</div>
+
+	<div class="buttonwrapper">
+		<button class="option" id="opt2-1-1">Remain stationary</button>
+		<button class="option" id="opt2-1-2">Proceed to make a right turn</button>
+		<button class="option" id="opt2-1-3">Accelerate forward</button>
+		<button class="option" id="opt2-1-4">Proceed to make a left turn</button>
+	</div>
+
+<!-- Scenario 3 -->
+	<h2>Scenario 3</h2>
+<!-- Question 1 -->
+		<h3>Question 1</h3>
+			<p>You have come to a stop at the stop line. You want to make a right turn. What do you do?</p>
+	<div class="imgwrapper">
+		<img class="imgquiz" src="img3.png">
+	</div>
+	<div class="buttonwrapper">
+		<button class="option" id="opt3-1-1">Switch on the right signal</button>
+		<button class="option" id="opt3-1-2">Switch on the left signal</button>
+	</div>
+
+<!-- Question 2 -->
+		<h3>Question 2</h3>
+			<p>As seen in the diagram, Car A is heading in the forward direction. There is a traffic light ahead of you. Click it to decide your next move.</p>
+	<div class="imgwrapper">
+		<img class="imgquiz" src="img3.png">
+	</div>
+
+	<div class="buttonwrapper">
+		<button class="option" id="opt3-2-1">Proceed to make a right turn and gesture a quick 'thanks' to Car A as you drive by</button>
+		<button class="option" id="opt3-2-2">Wait for Car A to cross the junction and proceed to make a right turn</button>
+		<button class="option" id="opt3-2-3">Wait for Car A to cross the junction. Make sure there is no more oncoming traffic before turning right</button>
+		<button class="option" id="opt3-2-4">Wait for Car A to cross the junction and remain stationary even though there is no oncoming traffic. Proceed to do a right turn when the green arrow on the traffic light appears.</button>
+	</div>
+<!-- Question 3 -->
+		<h3>Question 3</h3>
+			<p>As you are about to move off, Car B approaches the junction and stops on your left as seen in the diagram. His right signal light is on. What do you do?</p>
+	<div class="imgwrapper">
+			<img class="imgquiz" src="img3.png">
+	</div>
+
+	<div class="buttonwrapper">
+		<button class="option" id="opt3-3-1">Accelerate ahead of him and end up on any lane available</button>
+		<button class="option" id="opt3-3-2">Let him turn right ahead of you before turning right into lane 1</button>
+		<button class="option" id="opt3-3-3">Proceed safely to make a right turn into lane 1</button>
+		<button class="option" id="opt3-3-4">Proceed safely to make a right turn into lane 2</button>
+	</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="script2.js"></script>

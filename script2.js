@@ -1,8 +1,12 @@
+var score = 0;
+//console.log("score is here", score);
+
+
 //Scenario 1
 
 //Question 1
 var s1o1 = function() {
-	alert("Oops! Try harder.");
+	alert("Oops! That is incorrect.");
 };
 
 document.getElementById("opt1-1-1")
@@ -10,7 +14,7 @@ document.getElementById("opt1-1-1")
 
 
 var s1o2 = function() {
-	alert("Oops! Try harder.");
+	alert("Oops! That is incorrect.");
 };
 
 document.getElementById("opt1-1-2")
@@ -18,7 +22,7 @@ document.getElementById("opt1-1-2")
 
 
 var s1o3 = function() {
-	alert("Oops! Try harder.");
+	alert("Oops! That is incorrect.");
 };
 
 document.getElementById("opt1-1-3")
@@ -26,15 +30,23 @@ document.getElementById("opt1-1-3")
 
 
 var s1o4 = function() {
-	alert("Correct!");
+	score++;
+	alert("Correct! " + "You score 1 point. You now have " + score + "point(s)!");
+	//console.log("user has clicked", score);
+	document.getElementById("opt1-1-4")
+		.style.backgroundColor = "green";
 };
 
 document.getElementById("opt1-1-4")
 	.addEventListener("click", s1o4);
 
+
 //Question 2
 var s1o1 = function() {
-	alert("Well done!");
+	score++;
+	alert("Well done! " + "You score 1 point. You now have " + score + "point(s)!");
+	document.getElementById("opt1-2-1")
+		.style.backgroundColor = "green";
 };
 
 document.getElementById("opt1-2-1")
@@ -42,7 +54,7 @@ document.getElementById("opt1-2-1")
 
 
 var s1o2 = function() {
-	alert("Oops! Try harder.");
+	alert("Oops! That's incorrect.");
 };
 
 document.getElementById("opt1-2-2")
@@ -52,7 +64,10 @@ document.getElementById("opt1-2-2")
 
 //Question 1
 var s1o1 = function() {
-	alert("Good job!");
+	score++;
+	alert("Well done! " + "You score 1 point. You now have " + score + "point(s)!");
+	document.getElementById("opt2-1-1")
+		.style.backgroundColor = "green";
 };
 
 document.getElementById("opt2-1-1")
@@ -60,7 +75,7 @@ document.getElementById("opt2-1-1")
 
 
 var s1o2 = function() {
-	alert("Oops! Try harder.");
+	alert("Oops! That's incorrect.");
 };
 
 document.getElementById("opt2-1-2")
@@ -68,7 +83,7 @@ document.getElementById("opt2-1-2")
 
 
 var s1o3 = function() {
-	alert("Oops! Try harder.");
+	alert("Oops! That's incorrect.");
 };
 
 document.getElementById("opt2-1-3")
@@ -87,7 +102,10 @@ document.getElementById("opt2-1-4")
 //Question 1
 
 var s1o1 = function() {
-	alert("Fantastic!");
+score++;
+	alert("Well done! " + "You score 1 point. You now have " + score + "point(s)!");
+	document.getElementById("opt3-1-1")
+		.style.backgroundColor = "green";
 };
 
 document.getElementById("opt3-1-1")
@@ -120,7 +138,10 @@ document.getElementById("opt3-2-2")
 
 
 var s1o3 = function() {
-	alert("Correct!");
+	score++;
+	alert("Well done! " + "You score 1 point. You now have " + score + "point(s)!");
+	document.getElementById("opt3-2-3")
+		.style.backgroundColor = "green";
 };
 
 document.getElementById("opt3-2-3")
@@ -153,7 +174,10 @@ document.getElementById("opt3-3-2")
 
 
 var s1o3 = function() {
-	alert("Correct!");
+	score++;
+	alert("Well done! " + "You score 1 point. You now have " + score + "point(s)!");
+	document.getElementById("opt3-3-3")
+		.style.backgroundColor = "green";
 };
 
 document.getElementById("opt3-3-3")

@@ -48,6 +48,12 @@ h2, h3 {
 	background-color: indianred;
 }
 
+.option:active {
+  -webkit-box-shadow: inset 0px 0px 15px black;
+     -moz-box-shadow: inset 0px 0px 15px black;
+          box-shadow: inset 0px 0px 15px black;
+}
+
 .buttonwrapper, .imgwrapper {
 	display: inline-block;
 	vertical-align: top;
@@ -60,14 +66,75 @@ h2, h3 {
 }
 
 .imgwrapper {
-	width: 47.5%;
+	width: 38.5%;
 }
 
 .imgquiz {
 	width: 100%; 
 }
 
+.img-buttons-wrapper {
+	margin: 0 auto 190px auto;
+}
+
 #policeofficer {
 	width: 70%;
 }
 
+.nextstyle {
+	display: block;
+	margin: 40px auto 0 auto;
+	border-radius: 99px;
+	width: 100px;
+	height: 50px;
+	font-size: 30px;
+	border: solid black;
+}
+
+.replaystyle {
+	display: block;
+	margin: 40px auto 0 auto;
+	border-radius: 99px;
+	width: 100px;
+	height: 50px;
+	font-size: 30px;
+	border: solid black;
+}
+
+a {
+	text-decoration: none;
+}
+
+footer {
+	text: uppercase;
+	padding: 0 20px;
+	background-color: #0D2c40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+.copyright {
+	font-family: "Raleway", sans-serif;
+	float: left;
+}
+
+.message {
+	font-family: "Raleway", sans-serif;
+	float: right;
+}
+
+.name {
+	color: #F15B31;
+	font-weight: 700;
+}
